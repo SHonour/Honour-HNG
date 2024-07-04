@@ -1,0 +1,121 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  background-color: #e6f7ff
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  color: black;   
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #007BFF;
+  background-color: #e6f7ff;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic img {
+  height: auto;
+  margin-right: 20px;
+}
+
+.details p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.details img.icon {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.goals {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.goals h2 {
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.goals ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+footer.links {
+  background-color: #e6f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.links {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.links h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.links a img.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
