@@ -11,21 +11,38 @@ body {
 
 .container {
   background-color: white;
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
-  max-width: 600px;
+  max-width: 900px;
   width: 100%;
+  margin-top: 50px;
 }
 
-header {
+
+header h1{
   text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: white;
+  margin-left: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 header img {
-  border-radius: 0;
-  /* all natural dimension */
+  margin-left: 0cm;
+  
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: -8px;}
+
+  .div1 p{
+    line-height: 0;
+  }
 
 section {
   margin-top: 20px;
@@ -68,6 +85,12 @@ footer ul li a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+      padding: 15px;
+  }
 }
 
 @media (max-width: 600px) {
